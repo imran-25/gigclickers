@@ -1,0 +1,391 @@
+/*====================== Extra small devices 
+================================================================*/
+@media (max-width: 575.98px) {
+/* Home page css*/
+    .navbar .top-btn.top-btn2 a {
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.business_title h1 {
+	font-size: 28px;
+	margin-top: 45px;
+	padding-right: 0px;
+	max-width: 300px;
+}
+    .business_description p {
+	font-size: 16px;
+}
+    .about_right img {
+	padding-bottom: 15px;
+}
+    .navbar .navbar-brand {
+	width: 100px;
+}
+    .navbar-toggler {
+	padding: 2px 5px;
+	width: 40px;
+}
+    .business_button {
+	margin-top: 55px;
+}
+    .about_right.image-box.redish {
+	margin-top: 0px;
+}
+    .frequent-box .accordion {
+	grid-template-columns: 1fr;
+	gap: 0;
+}
+    .frequent-box .accordion-item {
+	margin: 12px 0;
+}
+    .about_right img {
+	padding-bottom: 15px;
+	width: 100%;
+}
+    .frequent-section {
+	padding: 30px 0;
+	background: #fff;
+}
+    .footer-about {
+	text-align: center;
+	margin-bottom: 15px;
+}
+    .footer_title {
+	text-align: center;
+	margin-top: 18px;
+	margin-bottom: 15px;
+}
+    .footer-menu {
+	padding-left: 0;
+	text-align: center;
+}
+    .social {
+	margin-top: 20px;
+	text-align: center;
+}
+    .mobile-copyright {
+	display: block;
+	text-align: center;
+	margin-top: 22px;
+	font-size: 15px;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/* Job page css*/
+    .header_balance ul li a {
+	margin-left: 0;
+	margin-right: 0px;
+	font-size: 12px;
+	font-weight: 600;
+}
+.post_btn.n_margin {
+	margin-right: 5px;
+	margin-left: 5px;
+    margin-bottom: 10px;
+}
+    .post_btn {
+	padding: 4px 12px !important;
+}
+    .deal_btns {
+	text-align: center;
+}
+    .member-content {
+	margin-top: 20px !important;
+	/* background: #f7f7f7; */
+	padding: 20px 0;
+	border-radius: 5px;
+}
+    .search_sort .form-control {
+	font-size: 11px;
+}
+    .search_title {
+	margin-bottom: 10px;
+}
+    .mobile_hide {
+	display: none;
+}
+    .jb_prof_right p {
+	margin: 0;
+	color: #222;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: space-between;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/* Post Job page css*/
+.country_check {
+	grid-template-columns: 1fr 1fr;
+}
+.post_create_item .radio-label {
+	display: grid;
+	height: 100%;
+	align-items: center;
+} 
+.category_check {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}    
+.subcategory_check {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+.step-dots {
+	padding: 5px 10px;
+}
+.step-dots {
+	margin: 0 5px;
+} 
+    
+    
+    
+/* Deposit page css*/
+.deposit-withdraw {
+	grid-template-columns: repeat(2, 1fr);
+	gap: 8px;
+}
+    
+    
+    
+    
+/* Profile settings page css*/
+    .member-content {
+	padding: 5px 8px;
+}
+    .container .container {
+	padding: 0 10px;
+}
+    
+    
+    
+    
+    
+    
+}
+
+/*=========================== Small devices 
+=======================================================================*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* Home page css*/
+
+.business_title h1 {
+	font-size: 28px;
+	margin-top: 45px;
+	padding-right: 0px;
+	max-width: 300px;
+}
+    .business_description p {
+	font-size: 16px;
+}
+    .about_right img {
+	padding-bottom: 15px;
+}
+
+    .business_button {
+	margin-top: 55px;
+}
+    .about_right.image-box.redish {
+	margin-top: 40px;
+}
+    .frequent-box .accordion {
+	grid-template-columns: 1fr;
+	gap: 0;
+}
+    .frequent-box .accordion-item {
+	margin: 12px 0;
+}
+    .about_right img {
+	padding-bottom: 15px;
+	width: 100%;
+}
+    .frequent-section {
+	padding: 30px 0;
+	background: #fff;
+}
+    .footer-about {
+	text-align: center;
+	margin-bottom: 15px;
+}
+    .footer_title {
+	text-align: center;
+	margin-top: 18px;
+	margin-bottom: 15px;
+}
+    .footer-menu {
+	padding-left: 0;
+	text-align: center;
+}
+    .social {
+	margin-top: 20px;
+	text-align: center;
+}
+    .mobile-copyright {
+	display: block;
+	text-align: center;
+	margin-top: 22px;
+	font-size: 15px;
+}
+.image-box::after {
+	width: 259px;
+}
+    .explore_category p {
+	font-size: 8px;
+}
+.copyright.d-none {
+	display: block !important;
+}
+.copyright.d-none p {
+    font-size: 12px;
+}
+    .mobile-copyright {
+	display: none;
+}
+    .social ul li a {
+	margin-bottom: 8px;
+}
+    .footer_title {
+	margin-top: 0;
+        font-size: 13px;
+}
+    .footer-menu ul li a {
+	font-size: 11px;
+}
+    
+    
+    
+    
+    
+    
+    
+/* Find Job page css*/
+    .search_sort .form-control {
+	font-size: 11px;
+}
+    
+    
+   
+    
+    
+.step-dots {
+	padding: 5px 30px;
+}
+.step-dots {
+	margin: 0 5px;
+} 
+   
+    
+    
+    
+/* Withdraw page css*/
+.deposit-withdraw {
+	grid-template-columns: repeat(2, 1fr);
+	gap: 8px;
+} 
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+/*============================ Medium devices 
+=========================================================================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+        .about_right img {
+	width: 100%;
+}
+    
+    
+.step-dots {
+	padding: 5px 10px;
+}
+.step-dots {
+	margin: 0 5px;
+} 
+  .social ul li a {
+	height: 30px;
+	line-height: 30px;
+	width: 30px;
+      margin-bottom: 10px;
+}
+/*class="col-sm-4 col-md-3 col-lg-4"*/
+    
+}
+
+/*============================ Large devices 
+=========================================================================*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+        .about_right img {
+	width: 100%;
+}
+    .emp-col {
+	padding: 30px 6px 6px 0;
+}
+.worker_items p {
+	font-size: 13px;
+}
+    #job-details .navbar .container {
+        max-width: 100%;
+    }
+
+.step-dots {
+	padding: 5px 40px;
+}
+.step-dots {
+	margin: 0 5px;
+} 
+ 
+
+}
+
+
+
+/*============================ Extra Large devices 
+=========================================================================*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+.container {
+	max-width: 1140px;
+}
+}
+
+/*============================ Extra Extra Large devices 
+=========================================================================*/
+@media (min-width: 1400px) and (max-width: 1499.98px) {
+
+.container {
+	max-width: 1140px;
+}
+
+
+}
+
+
+@media (min-width: 1500px) {
+
+.container {
+	max-width: 1140px;
+}
+
+}
